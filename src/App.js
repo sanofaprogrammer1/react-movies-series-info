@@ -4,6 +4,8 @@ import { Provider } from 'react-redux';
 
 import Navbar from './components/layout/Navbar';
 import Landing from './components/home/Landing';
+import Movie from './components/home/Movie';
+import Footer from './components/layout/Footer';
 
 import store from './store';
 
@@ -18,7 +20,9 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Route exact path="/" component={Landing} />
+              <Route exact path="/movie/:id" component={Movie} />
             </div>
+            <Footer />
           </div>
         </Router>
       </Provider>
