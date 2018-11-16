@@ -5,7 +5,7 @@ import { APIKey } from '../APIKeys';
 
 export const fetchMovies = data => dispatch => {
   axios
-    .get(`http://www.omdbapi.com/?apikey=${APIKey}&s=${data}`)
+    .get(`https://www.omdbapi.com/?apikey=${APIKey}&s=${data}`)
     .then(response =>
       dispatch({
         type: FETCH_MOVIES,
@@ -17,7 +17,7 @@ export const fetchMovies = data => dispatch => {
 
 export const fetchMovie = id => dispatch => {
   axios
-    .get(`http://www.omdbapi.com/?apikey=${APIKey}&i=${id}`)
+    .get(`https://www.omdbapi.com/?apikey=${APIKey}&i=${id}`)
     .then(response =>
       dispatch({
         type: FETCH_MOVIE,
