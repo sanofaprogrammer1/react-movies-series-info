@@ -10,8 +10,8 @@ export class Footer extends Component {
             <span className="text-warning font-weight-normal">
               Yaser AlAzem
             </span>{' '}
-            , Using <i class="fab fa-react" /> React JS integrated with external
-            movies data API{' '}
+            , Using <i className="fab fa-react" /> React JS integrated with
+            external movies data API{' '}
             <a
               href="http://www.omdbapi.com/"
               target="_blank"

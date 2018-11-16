@@ -11,15 +11,12 @@ export class Navbar extends Component {
               MovieSeriesInfo
             </Link>
           </div>
-          <ul class="navbar-nav ml-auto text-light d-inline-block">
-            <li class="nav-item d-inline-block mr-4">
+          <ul className="navbar-nav ml-auto text-light d-inline-block">
+            <li className="nav-item d-inline-block mr-4">
               <i className="fab fa-imdb fa-5x" id="imdb-logo" />
             </li>
-            {/* <li class="nav-item d-inline-block mt-0">
-              <img src={logo} alt="logo" id="logo" />
-            </li> */}
-            <li class="nav-item d-inline-block mr-4">
-              <i class="fab fa-react fa-5x" id="react-logo" />
+            <li className="nav-item d-inline-block mr-4">
+              <i className="fab fa-react fa-5x" id="react-logo" />
             </li>
           </ul>
         </div>
