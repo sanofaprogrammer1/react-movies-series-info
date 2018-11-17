@@ -5,7 +5,6 @@ export class MovieCard extends Component {
   render() {
     const { movie } = this.props;
     const { imdbID } = this.props.movie;
-    //console.log(imdbID);
     return (
       <div className="col-md-3 mb-5">
         <div className="card card-body bg-dark text-center h-100">
