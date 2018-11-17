@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-movies-series-info/static/css/main.0418439d.chunk.css"
   },
   {
-    "revision": "148570a5d0c8e29b6ba1520677258033",
+    "revision": "ff2be16bc7995549926e462df044f268",
     "url": "/react-movies-series-info/index.html"
   }
 ];
